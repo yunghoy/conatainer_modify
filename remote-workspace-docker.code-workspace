@@ -1,0 +1,12 @@
+{
+	"folders": [
+		{
+			"path": "."
+		}
+	],
+	"settings": {
+		"docker.host": "tcp://172.18.1.53:2375",
+		"docker.containers.groupBy": "ContainerName",
+		"docker.defaultRegistryPath": "http://172.18.1.53:5000"
+	}
+}

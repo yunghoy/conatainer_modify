@@ -1,0 +1,8 @@
+version: '3'
+services:
+  workspace-docker:
+    image: workspace-base:latest
+    command: sleep infinity
+    volumes:
+      - /root/.vscode-server-insiders:/root/.vscode-server-insiders
+      - /root/workspace:/workspace
